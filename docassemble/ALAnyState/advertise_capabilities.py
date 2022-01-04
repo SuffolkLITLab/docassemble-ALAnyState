@@ -1,4 +1,7 @@
-import advertise_capabilities from docassemble.ALWeaver.custom_values
+# pre-load
 
-if not __name__ == '__main__' and not os.environ.get('ISUNITTEST'):
-  advertise_capabilities()
+import os
+from docassemble.ALWeaver.custom_values import advertise_capabilities
+
+if not os.environ.get('ISUNITTEST'):
+  advertise_capabilities(__name__, minimum_version="1.5")

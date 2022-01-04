@@ -45,7 +45,7 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
 setup(name='docassemble.ALAnyState',
       version='0.0.1',
       description=('A plugin for docassemble.ALWeaver and runtime for docassemble.AssemblyLine'),
-      long_description='# docassemble.ALAnyState\n\nA plugin for docassemble.ALWeaver and runtime for docassemble.AssemblyLine\n\n## Author\n\nQuinten Steenhuis, qsteenhuis@suffolk.edu\n\n',
+      long_description='# docassemble.ALAnyState\r\n\r\nA plugin for docassemble.ALWeaver and runtime for docassemble.AssemblyLine\r\n\r\n## Author\r\n\r\nQuinten Steenhuis, qsteenhuis@suffolk.edu\r\n\r\n',
       long_description_content_type='text/markdown',
       author='Quinten Steenhuis',
       author_email='qsteenhuis@suffolk.edu',
