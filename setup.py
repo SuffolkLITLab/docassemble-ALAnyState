@@ -43,9 +43,9 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
     return out
 
 setup(name='docassemble.ALAnyState',
-      version='0.0.1',
+      version='0.1.0',
       description=('A plugin for docassemble.ALWeaver and runtime for docassemble.AssemblyLine'),
-      long_description='# docassemble.ALAnyState\r\n\r\nA plugin for docassemble.ALWeaver and runtime for docassemble.AssemblyLine\r\n\r\n## Author\r\n\r\nQuinten Steenhuis, qsteenhuis@suffolk.edu\r\n\r\n',
+      long_description="# docassemble.ALAnyState\r\n\r\nA ALWeaver capability package and docassemble.AssemblyLine runtime package that provides a simple\r\nlook and feel that is lightly customized to each state. It displays the state's seal and uses the\r\nstate's name in the navigation bar.\r\n\r\nThe goal is to also show a rudimentary listing of the court/venue tailored to each state.\r\n\r\n## Author\r\n\r\nQuinten Steenhuis, qsteenhuis@suffolk.edu\r\n\r\n",
       long_description_content_type='text/markdown',
       author='Quinten Steenhuis',
       author_email='qsteenhuis@suffolk.edu',

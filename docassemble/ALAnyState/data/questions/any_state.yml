@@ -1,0 +1,24 @@
+---
+comment: |
+  This is a package that has a placeholder logo and title that works for any
+  state.
+---
+modules:
+  - .al_courts
+---
+objects:
+  # Use the state seal as the default logo
+  - al_logo: ALStaticDocument.using(filename=f"{state_name(AL_DEFAULT_STATE).lower()}-small.png")
+  - all_courts: ALCourtLoader.using(file_name="court_sample.xlsx")
+---
+code: |
+  AL_ORGANIZATION_TITLE = f"{state_name(AL_DEFAULT_STATE)} Court Forms Online"
+---
+metadata:
+  title: |
+    File legal forms online
+  short title: |
+    File forms
+---
+features:
+  css: colors.css
