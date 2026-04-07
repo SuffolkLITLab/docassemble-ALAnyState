@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docassemble.ALAnyState"
+version = "0.1.0"
+description = "A plugin for docassemble.ALWeaver and runtime for docassemble.AssemblyLine"
+readme = "README.md"
+authors = [
+    { name="Quinten Steenhuis", email="qsteenhuis@suffolk.edu" },
+]
+dependencies = []
+license = "MIT"
+license-files = ["LICENSE*"]
+
+[project.urls]
+GitHub = "https://github.com/SuffolkLITLab/docassemble-ALAnyState"
+
+[tool.setuptools.packages.find]
+where = ["."]
+
