@@ -6,7 +6,6 @@ comment: |
 ---
 include:
   - docassemble.AssemblyLine:al_package.yml
-  - custom_organization.yml
 ---
 comment: |
   These are placeholder values for some of the mandatory values that need to
@@ -27,6 +26,7 @@ code: |
   trial_court
   trial_court_demo
 ---
+id: court_selected
 event: trial_court_demo
 question: |
   Here is the court you selected
